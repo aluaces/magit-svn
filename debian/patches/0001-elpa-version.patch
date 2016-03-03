@@ -1,0 +1,20 @@
+From: Alberto Luaces <aluaces@udc.es>
+Date: Thu, 3 Mar 2016 23:20:03 +0100
+Subject: elpa-version
+
+---
+ magit-svn.el | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/magit-svn.el b/magit-svn.el
+index 83b19a6..f517967 100644
+--- a/magit-svn.el
++++ b/magit-svn.el
+@@ -7,6 +7,7 @@
+ ;; Keywords: vc tools
+ ;; Package: magit-svn
+ ;; Package-Requires: ((emacs "24.4") (magit "2.1.0"))
++;; Version: 2.1.1
+ 
+ ;; Magit is free software; you can redistribute it and/or modify it
+ ;; under the terms of the GNU General Public License as published by

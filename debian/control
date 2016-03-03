@@ -1,0 +1,27 @@
+Source: magit-svn
+Section: lisp
+Priority: optional
+Maintainer: Debian Emacs addons team <pkg-emacsen-addons@lists.alioth.debian.org>
+Uploaders: Alberto Luaces Fernández <alberto.luaces@gmail.com>
+Build-Depends: debhelper (>= 9), dh-elpa (>= 0.0.19)
+Standards-Version: 3.9.7
+Homepage: https://github.com/magit/magit-svn
+Vcs-Browser: https://github.com/aluaces/magit-svn
+
+Package: elpa-magit-svn
+Architecture: all
+Depends: ${misc:Depends}, emacs
+Built-Using: ${misc:Built-Using}
+Recommends: emacs (>= 46.0)
+Enhances: emacs, emacs24
+Description: git-svn extension for magit
+ This package provides basic support for Git-Svn.
+ .
+ Git-Svn is a Git command that aims to provide bidirectional
+ operation between a Subversion repository and Git.
+ .
+ When `magit-svn-mode' is turned on then the unpushed and unpulled
+ commit relative to the Subversion repository are displayed in the
+ status buffer, and `N' is bound to a popup with commands that wrap
+ the `git svn' subcommands fetch, rebase, dcommit, branch and tag,
+ as well as a few extras.
