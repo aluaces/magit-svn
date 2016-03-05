@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/aluaces/magit-svn
 
 Package: elpa-magit-svn
 Architecture: all
-Depends: ${misc:Depends}, emacs
+Depends: ${misc:Depends}, emacs, ${elpa:Depends}
 Built-Using: ${misc:Built-Using}
 Recommends: emacs (>= 46.0)
 Enhances: emacs, emacs24
